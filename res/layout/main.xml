@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" >
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="本日日期："
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <TextView
+           android:id="@+id/Date"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="yyyy/mm/nn"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+   </LinearLayout>
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SQL查詢"
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <EditText
+           android:id="@+id/txtSQL"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="Select * from Cost"
+           android:ems="10" >
+
+           <requestFocus />
+       </EditText>
+ 
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+       
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+       <Button
+           android:id="@+id/btn_NewData"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="新建資料" />
+
+       <Button
+           android:id="@+id/btn_List"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="btn_List_Click"
+           android:text="歷史紀錄" />
+
+       <Button
+           android:id="@+id/btn_SQLSearch"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="btn_SQL_Click"
+           android:text="SQL查詢" />
+
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/output"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+</LinearLayout>
