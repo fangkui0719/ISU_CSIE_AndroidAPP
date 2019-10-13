@@ -4,4 +4,6 @@ The department of Computer Science and Information Engineering in I-Shou Univers
 
 A course in handset programming.
 
-A android app of bookkeeping ( Java )
+A android app of bookkeeping
+
+Program language : Java
