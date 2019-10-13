@@ -1,2 +1,3 @@
-# ISU_CSIE_AndroidAPP
-An android app of bookkeeping.
+# Introduction
+
+手機程式設計課堂實作。
