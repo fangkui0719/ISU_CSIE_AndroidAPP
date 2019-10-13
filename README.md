@@ -1,3 +1,7 @@
 # Introduction
 
-手機程式設計課堂實作。
+The department of Computer Science and Information Engineering in I-Shou University, Taiwan.
+
+A course in handset programming.
+
+A android app of bookkeeping ( Java )
